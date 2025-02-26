@@ -1,8 +1,8 @@
-import pymysql
+import mysql.connector
 
 try:
     # Establish connection
-    connection = pymysql.connect(
+    connection = mysql.connector.connect(
         host="localhost",
         user="root",
         password="Emma-39058178"
