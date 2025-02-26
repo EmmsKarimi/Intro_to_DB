@@ -24,7 +24,7 @@ try:
     connection.close()
     print("MySQL connection closed.")
 
-except pymysql.MySQLError as e:
+except mysql.connector.MySQLError as e:
     print(f"Error: {e}")
 
 finally:
